@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DAY2 Task2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color: burlywood;
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <form action="file:///home/affordplan/NetBeansProjects/Html_Day1/public_html/DAY2/DAY2.html" target="_blank" method="get">
+            <fieldset>
+                <legend> <h1> Student Registration Form</h1></legend>
+                <img src="image9.png" alt="not loaded" style="float: right">
+                Student Name:
+            <input type="text">
+            <br><br>
+            Course:         
+            <input type ="text">
+            <br><br>
+            Gender:
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others<br><br>
+            Date of Birth:
+            <input type="date"><br><br>
+            Category:
+            <input type="radio" name="category" value="GEN">GEN
+             <input type="radio" name="category" value="OBC">OBC
+              <input type="radio" name="category" value="ST">ST
+               <input type="radio" name="category" value="SC">SC<br><br>
+               Address:
+               <input type="text"><br><br>
+               Email:
+               <input type="email" autocomplete="on"><br><br>
+               Contact:
+               <input type="number"><br><br>
+               State:
+               <select name="states">
+                   <option value="Punjab">Punjab</option>
+                   <option value="Haryana">Haryana</option>
+                   <option value="Delhi">Delhi</option>
+                   <option value="Chandigarh">Chandigarh</option>
+                   <option value="Uttar Pradesh">Uttar Pradesh</option>
+               </select><br><br>
+               Country:
+               <input type="text"><br><br>
+            
+            </fieldset>
+            <input type="submit">
+            <input type="reset" onclick="alert(reset)">
+        </form>
+    </body>
+</html>
